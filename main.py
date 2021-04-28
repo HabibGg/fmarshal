@@ -11,8 +11,8 @@ colorama.init()
 
 
 os.system("clear")
-print(Fore.RED+"_-_-_-_-_-_-_-_-_-_-_-__-_--_-__-_-_-__-_-_--_-_ _-_-_-_-_-_-_-_-_-_-_-__-_--_-__-_-_-__-_-_--_-_SCRIPT BY FIXSED >_< _-_-_-_-_-_-_-_-_-_-_-__-_--_-__-_-_-__-_-_--_-_ \n\n"+Style.RESET_ALL)
-print(Fore.RED+"Kegunaan script ini adalah untuk encrypt script kalian, jadi script kalian gaada di maling >_< \n\n")
+print(Fore.RED+"##### TOOLS BY FIXSED #####\n\n"+Style.RESET_ALL)
+print(Fore.BLUE+"Kegunaan script ini adalah untuk encrypt script kalian, jadi script kalian gaada di maling >_< \n\n")
 
 
 file = input(Fore.GREEN+"INPUT FILE >")
