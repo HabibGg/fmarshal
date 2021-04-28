@@ -19,7 +19,7 @@ file = input(Fore.GREEN+"INPUT FILE >")
 baca = open(file, "r").read()
 com = compile(baca, "", "exec")
 
-encrypt = marshal.dumbs(com)
+encrypt = marshal.dumps(com)
 baru = open("enc_"+str(file), "w")
 
 baru.write("import marshal \n")
