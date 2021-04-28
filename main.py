@@ -23,6 +23,6 @@ encrypt = marshal.dumps(com)
 baru = open("enc_"+str(file), "w")
 
 baru.write("import marshal \n")
-baru.write("exec(marshal.loads("+repr(encpypt)+"))")
+baru.write("exec(marshal.loads("+repr(encrypt)+"))")
 
 print("Encrypt berhasil | File di save enc_"+str(file))
